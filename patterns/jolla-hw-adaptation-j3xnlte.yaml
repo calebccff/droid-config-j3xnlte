@@ -44,9 +44,9 @@ Requires:
 - gstreamer1.0-plugins-good
 - gstreamer1.0-plugins-base
 - gstreamer1.0-plugins-bad
-- nemo-gstreamer1.0-interfaces
+#- nemo-gstreamer1.0-interfaces
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
-#- gstreamer1.0-droid
+- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -80,6 +80,9 @@ Requires:
 
 # For devices with SD Card
 #- sd-utils
+
+# For straggler files?
+- droid-hal-j3xnlte-detritus
 
 Summary: Jolla HW Adaptation j3xnlte
 

@@ -73,3 +73,4 @@
 /usr/libexec/droid-hybris/system/etc/init/logd.rc
 /usr/libexec/droid-hybris/system/etc/init/perfprofd.rc
 /usr/libexec/droid-hybris/system/etc/init/dumpstate.rc
+/lib/systemd/system/wlan-module-load.service
