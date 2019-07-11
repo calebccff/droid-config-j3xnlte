@@ -27,6 +27,9 @@ Requires:
 - ngfd-plugin-native-vibrator
 - qt5-feedback-haptics-native-vibrator
 
+# Flashlight
+- jolla-settings-system-flashlight
+
 # Needed for /dev/touchscreen symlink
 - qt5-plugin-generic-evdev
 
@@ -44,9 +47,9 @@ Requires:
 - gstreamer1.0-plugins-good
 - gstreamer1.0-plugins-base
 - gstreamer1.0-plugins-bad
-#- nemo-gstreamer1.0-interfaces
-# For devices with droidmedia and gst-droid built, see HADK pdf for more information
-- gstreamer1.0-droid
+- nemo-gstreamer1.0-interfaces
+- gstreamer1.0-droid # For that good hardware acceleration
+
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris

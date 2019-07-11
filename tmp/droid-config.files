@@ -59,6 +59,7 @@
 /usr/libexec/droid-hybris/system/etc/init/installd.rc
 /usr/libexec/droid-hybris/system/etc/init/gatekeeperd.rc
 /usr/libexec/droid-hybris/system/etc/init/atrace.rc
+/usr/libexec/droid-hybris/system/etc/init/download.rc
 /usr/libexec/droid-hybris/system/etc/init/bootstat.rc
 /usr/libexec/droid-hybris/system/etc/init/vdc.rc
 /usr/libexec/droid-hybris/system/etc/init/mediadrmserver.rc
@@ -73,4 +74,7 @@
 /usr/libexec/droid-hybris/system/etc/init/logd.rc
 /usr/libexec/droid-hybris/system/etc/init/perfprofd.rc
 /usr/libexec/droid-hybris/system/etc/init/dumpstate.rc
+/lib/systemd/system/wpa_supplicant_sprd.service
+/lib/systemd/system/multi-user.target.wants/wpa_supplicant.service
+/lib/systemd/system/multi-user.target.wants/wlan-module-load.service
 /lib/systemd/system/wlan-module-load.service

@@ -1,15 +1,15 @@
-[Unit]
 Description=Load wlan module
 Conflicts=shutdown.target actdead.target
-
+Before=wpa_supplicant.service
+ 
 [Service]
 Type=simple
 RemainAfterExit=yes
-ExecStartPre=/bin/touch /dev/wcnss_wlan
-ExecStart=/sbin/modprobe wlan
-ExecStop=/sbin/modprobe -r wlan
+ExecStartPre=/bin/sleep 10
+ExecStart=/sbin/modprobe sprdwl
+ExecStop=/sbin/modprobe -r sprdwl
 Restart=on-failure
 RestartSec=2
-
+ 
 [Install]
 WantedBy=multi-user.target
